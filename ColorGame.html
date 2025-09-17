@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyin Guessing Game</title>
+    <link rel="stylesheet" href="ColorGame.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>
+            The
+            <br>
+            <span id="colorDisplay">RGB</span>  
+            <br>
+            Color Game
+        </h1>
+
+        <div id="controls">
+            <button id="reset">New Colors</button>
+            <span id="message">Pick a color!</span>
+            <div>
+                <button id="easyBtn">Easy</button>
+                <button id="hardBtn" class="selected">Hard</button>
+            </div>
+        </div>
+
+        <div class="squares-container" id="squaresContainer">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <div class="score">
+            <span id="scoreDisplay">Score: 0</span>
+        </div>
+    </div>
+
+    <script src="ColorGame.js">
+    </script>
+</body>
+</html>
