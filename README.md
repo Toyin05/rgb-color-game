@@ -1,6 +1,12 @@
 # 🎨 RGB Color Guessing Game
 
-![Game Screenshot](screenshot1.PNG, screenshot2.PNG, screenshot3.PNG, screenshot4.PNG)
+## 🌟 Screenshots
+
+![Game Screenshot 1](screenshot1.png)
+![Game Screenshot 2](screenshot2.png)
+![Game Screenshot 3](screenshot3.png)
+![Game Screenshot 4](screenshot4.png)
+
 
 An interactive RGB color guessing game built with **HTML, CSS, and JavaScript**.  
 The game generates random RGB values, and the player must pick the correct color square.
